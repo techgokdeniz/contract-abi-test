@@ -1,0 +1,50 @@
+[{
+        "inputs": [{
+            "internalType": "string",
+            "name": "firstMessage",
+            "type": "string"
+        }],
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+    },
+    {
+        "anonymous": false,
+        "inputs": [{
+                "indexed": false,
+                "internalType": "string",
+                "name": "oldMessage",
+                "type": "string"
+            },
+            {
+                "indexed": false,
+                "internalType": "string",
+                "name": "newMessage",
+                "type": "string"
+            }
+        ],
+        "name": "messageChanged",
+        "type": "event"
+    },
+    {
+        "inputs": [{
+            "internalType": "string",
+            "name": "newMessage",
+            "type": "string"
+        }],
+        "name": "changeMessage",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "message",
+        "outputs": [{
+            "internalType": "string",
+            "name": "",
+            "type": "string"
+        }],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]
